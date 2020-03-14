@@ -1,56 +1,48 @@
 @{
-    ViewData["Title"] = "Register Car";
+    ViewData["title"] = "Register Car";
 }
-
 
 <h1>Register new car here</h1>
 
 <div class="form">
-
+   <div class="form-group row">
+        <label class="col-4 form-group-label" for="year">Year:</label>
+        <div class="col-8">
+            <input type="text" class="form-control" placeholder="2003"/>
+        </div>
+    </div>
     <div class="form-group row">
-        <label for="txtMake" class="col-4 col-form-label">Make</label>
+        <label class="col-4 form-group-label" for="make">Make:</label>
         <div class="col-8">
-            <input id="txtMake" name="txtMake" type="text" class="form-control">
+            <input type="text" class="form-control" placeholder="Ford"/>
         </div>
-</div>
-   <div class="form-group row">
-        <label for="txtModel" class="col-4 col-form-label">Model</label>
+    </div>
+    <div class="form-group row">
+        <label class="col-4 form-group-label" for="model">Model:</label>
         <div class="col-8">
-            <input id="txtModel" name="txtModel" type="text" class="form-control">
+            <input type="text" class="form-control" placeholder="Mustang"/>
         </div>
-</div>
-   <div class="form-group row">
-        <label for="txtYear" class="col-4 col-form-label">Year</label>
+    </div>
+    <div class="form-group row">
+        <label class="col-4 form-group-label" for="cyls">Cylinders:</label>
         <div class="col-8">
-            <input id="txtYear" name="txtYear" type="text" class="form-control">
+            <input type="text" class="form-control" placeholder="8"/>
         </div>
-</div>
-   <div class="form-group row">
-        <label for="txtCyls" class="col-4 col-form-label">Cyls</label>
+    </div>
+    <div class="form-group row">
+        <label class="col-4 form-group-label" for="dailyPrice">Daily Price:</label>
         <div class="col-8">
-            <input id="txtCyls" name="txtCyls" type="text" class="form-control">
+            <input type="text" class="form-control" placeholder="12000"/>
         </div>
-</div>
- <div class="form-group row">
-        <label for="txtDescription" class="col-4 col-form-label">Description</label>
+    </div>
+    <div class="form-group row">
+        <label class="col-4 form-group-label" for="imageUrl">Image Link:</label>
         <div class="col-8">
-            <input id="txtDescription" name="txtDescription" type="text" class="form-control">
+            <input type="text" class="form-control" placeholder=""/>
         </div>
-</div>
- <div class="form-group row">
-        <label for="txtDailyPrice" class="col-4 col-form-label">Daily Price</label>
-        <div class="col-8">
-            <input id="txtDailyPrice" name="txtDailyPrice" type="text" class="form-control">
-        </div>
-</div>
- <div class="form-group row">
-        <label for="txtImageURL" class="col-4 col-form-label">ImageURL</label>
-        <div class="col-8">
-            <input id="txtImageURL" name="txtImageURL" type="text" class="form-control">
-        </div>
+    </div>
 </div>
 
-
-
-
-
+@section Styles{
+    <link rel="stylesheet" href="/css/register.css">
+}

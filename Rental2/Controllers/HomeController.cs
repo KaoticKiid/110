@@ -5,9 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Rental.Models;
+using Rental2.Models;
 
-namespace Rental.Controllers
+namespace Rental2.Controllers
 {
     public class HomeController : Controller
     {

@@ -1,12 +1,18 @@
-using System;
 using Microsoft.AspNetCore.Mvc;
-using Rental.Models;
+using Rental2.Models;
 using System.Collections.Generic;
+using System.Linq;
 
-namespace Rental.Controllers
+namespace Rental2.Controllers
 {
     public class CatalogController : Controller
     {
+        private DataContext dbContext;
+        public CatalogController(DataContext context)
+        {
+            this.dbContext = context;
+        }
+
         public IActionResult Index()
         {
             return View();
@@ -17,9 +23,16 @@ namespace Rental.Controllers
             return View();
         }
 
+        [HttpPost]
+        public IActionResult SaveCar([FromBody] Car theCar){
+        dbContext.Cars.Add(theCar);
+        dbContext.SaveChanges();
+        return Json(theCar);
+        }
+
         [HttpGet]
         public IActionResult GetCatalog(){
-            Car c1 = new Car();
+          /*  Car c1 = new Car();
             c1.Make = "Ford";
             c1.Model = "Mustang GT";
             c1.Year = "2003";
@@ -39,8 +52,9 @@ namespace Rental.Controllers
 
             List<Car> list = new List<Car>();
             list.Add(c1);
-            list.Add(c2);
+            list.Add(c2); */
 
+            var list = dbContext.Cars.ToList();
             return Json(list);
         }
     }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\armyk\\OneDrive\\Desktop\\FSDI110\\FSDI110\\Lab 1\\Lab 1.csproj": {}
+    "c:\\Users\\armyk\\OneDrive\\Desktop\\110\\Lab 1\\Lab 1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\armyk\\OneDrive\\Desktop\\FSDI110\\FSDI110\\Lab 1\\Lab 1.csproj": {
+    "c:\\Users\\armyk\\OneDrive\\Desktop\\110\\Lab 1\\Lab 1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\armyk\\OneDrive\\Desktop\\FSDI110\\FSDI110\\Lab 1\\Lab 1.csproj",
+        "projectUniqueName": "c:\\Users\\armyk\\OneDrive\\Desktop\\110\\Lab 1\\Lab 1.csproj",
         "projectName": "Lab 1",
-        "projectPath": "C:\\Users\\armyk\\OneDrive\\Desktop\\FSDI110\\FSDI110\\Lab 1\\Lab 1.csproj",
+        "projectPath": "c:\\Users\\armyk\\OneDrive\\Desktop\\110\\Lab 1\\Lab 1.csproj",
         "packagesPath": "C:\\Users\\armyk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\armyk\\OneDrive\\Desktop\\FSDI110\\FSDI110\\Lab 1\\obj\\",
+        "outputPath": "c:\\Users\\armyk\\OneDrive\\Desktop\\110\\Lab 1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\armyk\\AppData\\Roaming\\NuGet\\NuGet.Config"

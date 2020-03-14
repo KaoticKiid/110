@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\armyk\\OneDrive\\Desktop\\110\\Rental\\Rental.csproj": {}
+    "c:\\Users\\armyk\\OneDrive\\Desktop\\110\\Rental\\Rental.csproj": {}
   },
   "projects": {
-    "C:\\Users\\armyk\\OneDrive\\Desktop\\110\\Rental\\Rental.csproj": {
+    "c:\\Users\\armyk\\OneDrive\\Desktop\\110\\Rental\\Rental.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\armyk\\OneDrive\\Desktop\\110\\Rental\\Rental.csproj",
+        "projectUniqueName": "c:\\Users\\armyk\\OneDrive\\Desktop\\110\\Rental\\Rental.csproj",
         "projectName": "Rental",
-        "projectPath": "C:\\Users\\armyk\\OneDrive\\Desktop\\110\\Rental\\Rental.csproj",
+        "projectPath": "c:\\Users\\armyk\\OneDrive\\Desktop\\110\\Rental\\Rental.csproj",
         "packagesPath": "C:\\Users\\armyk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\armyk\\OneDrive\\Desktop\\110\\Rental\\obj\\",
+        "outputPath": "c:\\Users\\armyk\\OneDrive\\Desktop\\110\\Rental\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\armyk\\AppData\\Roaming\\NuGet\\NuGet.Config"

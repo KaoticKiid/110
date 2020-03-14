@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\armyk\\OneDrive\\Desktop\\110\\Lab 2\\Lab 2.csproj": {}
+    "c:\\Users\\armyk\\OneDrive\\Desktop\\110\\Lab 2\\Lab 2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\armyk\\OneDrive\\Desktop\\110\\Lab 2\\Lab 2.csproj": {
+    "c:\\Users\\armyk\\OneDrive\\Desktop\\110\\Lab 2\\Lab 2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\armyk\\OneDrive\\Desktop\\110\\Lab 2\\Lab 2.csproj",
+        "projectUniqueName": "c:\\Users\\armyk\\OneDrive\\Desktop\\110\\Lab 2\\Lab 2.csproj",
         "projectName": "Lab 2",
-        "projectPath": "C:\\Users\\armyk\\OneDrive\\Desktop\\110\\Lab 2\\Lab 2.csproj",
+        "projectPath": "c:\\Users\\armyk\\OneDrive\\Desktop\\110\\Lab 2\\Lab 2.csproj",
         "packagesPath": "C:\\Users\\armyk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\armyk\\OneDrive\\Desktop\\110\\Lab 2\\obj\\",
+        "outputPath": "c:\\Users\\armyk\\OneDrive\\Desktop\\110\\Lab 2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\armyk\\AppData\\Roaming\\NuGet\\NuGet.Config"
